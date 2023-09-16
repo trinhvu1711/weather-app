@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'body':['DM sans, sans-serif']
+        'body':['Poppins', 'sans-serif']
       }
     }
   },

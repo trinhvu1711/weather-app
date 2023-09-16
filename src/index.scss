@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base {
+  body {
+      @apply font-body text-white;
+      background-image: url('https://images.unsplash.com/photo-1577025229332-6f9c2e535c7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2093&q=80');
+      background-size: cover;
+      z-index: 0;
+      padding: 10px;
+  }
+}
+
+@layer components {
+}
